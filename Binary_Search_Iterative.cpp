@@ -14,7 +14,7 @@ for the searched element.
 
 /*
 Funtion Binary_Search:
-Is a RECURSIVE FUNTION that returns the position of the element (if it was found).
+Is a ITERATIVE FUNTION that returns the position of the element (if it was found).
 It continue making the bipartition of the elements if it hasnt found the element.
 If it wasnt found element by the time it cannot make more bipartitions it return an -1.
 
