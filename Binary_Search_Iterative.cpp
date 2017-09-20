@@ -48,6 +48,7 @@ int Binary_Search(vector<int> &set, int element, int left_boundary, int right_bo
 	return position;
 }
 
+//Lets make an example of how to use it
 int main()
 {
 	//Create a vector with 5 elements, and the element we want to search, and the return position
