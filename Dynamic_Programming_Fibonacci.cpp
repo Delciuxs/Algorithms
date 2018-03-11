@@ -24,11 +24,11 @@ using namespace std;
 
 	if we right down all the recusive steps we will see that the fibonacci(5) is
 
-									      	 				 fibonacci(5)
-						 	  fibonacci(4)	 						+			           fibonacci(3)
-				fibonacci(3)        +	    fibonacci(2)			         fibonacci(2)       +	    fibonacci(1)	
+								    fibonacci(5)
+					fibonacci(4)	 		+			      fibonacci(3)
+			fibonacci(3)        +	    fibonacci(2)			 fibonacci(2)       +	    fibonacci(1)	
 		fibonacci(2) + fibonacci(1) fibonacci(1) + fibonacci(0)     fibonacci(1) + fibonacci(0) 
-fibonacci(1) + fibonacci(0) 
+	fibonacci(1) + fibonacci(0) 
 
 	As we can see we are recomputing the same subproblem, for example fibonacci(2) is computed 3 times, so if we storage 
 	the result, we just have to return the answer for that subproblem when necesary
